@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>28338ad4-aa60-4795-a86f-35125bfc2ba4</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>ReferencedMultipleShared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AAAA.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Class1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Class2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Class211.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Class3.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Class4_AAA.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ExtractClassOwnFileUndoDisabled.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)InClassName.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IReferencedMultipleShared_VS1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MultiShared1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NewFolder4\asdf.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NewFolder4\B.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NewFolder4\Class1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NewFolder4\Class10.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NewFolder4\Class11.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NewFolder4\Class12.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NewFolder4\Class13.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NewFolder4\Class14.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NewFolder4\Class15.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NewFolder4\Class2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NewFolder4\Class3.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NewFolder4\Class4.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NewFolder4\Class5.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NewFolder4\Class6.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NewFolder4\Class7.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NewFolder4\Class8.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NewFolder4\Class9.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NewFolder4\Sh.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NewFolder4\Test1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NewFolder\Class1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NewFolder\Class2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NewFolder\Class3.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NewFolder\Class4.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)R1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReferencedMultipleShared_ReSharper5.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReferencedMultipleShared_Enum1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReferencedMultipleShared_ReSharper1_Renamed.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReferencedMultipleShared_ReSharper2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReferencedMultipleShared_ReSharper4_Renamed.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReferencedMultipleShared_VS1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReferencedMultipleShared_VS1Base1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shape.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shape_Copy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shared11.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SharedVS2.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)NewFolder1\" />
+    <Folder Include="$(MSBuildThisFileDirectory)NewFolder2\" />
+    <Folder Include="$(MSBuildThisFileDirectory)NewFolder3\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)HTMLPage1.html" />
+  </ItemGroup>
+</Project>

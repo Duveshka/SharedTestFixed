@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>netcoreapp3.1;net471</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\LinkedOriginCore\Linked6.cs" Link="Linked6.cs" />
+    <Compile Include="..\LinkedOriginCore\Linked7.cs" Link="Linked7.cs" />
+    <Compile Include="..\LinkedOriginCore\Linked8.cs" Link="Linked8.cs" />
+    <Compile Include="..\LinkedOriginFramework\Linked10.cs" Link="Linked10.cs" />
+    <Compile Include="..\LinkedOriginFramework\Linked1_Renamed.cs" Link="Linked1_Renamed.cs" />
+    <Compile Include="..\LinkedOriginFramework\Linked2.cs" Link="Linked2.cs" />
+    <Compile Include="..\LinkedOriginFramework\Linked3.cs" Link="Linked3.cs" />
+    <Compile Include="..\LinkedOriginFramework\Linked4.cs" Link="Linked4.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resource1.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

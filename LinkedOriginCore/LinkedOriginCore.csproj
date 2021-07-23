@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp3.1;net471</TargetFrameworks>
+  </PropertyGroup>
+
+  <Import Project="..\SharedProject22\SharedProject22.projitems" Label="Shared" />
+
+</Project>

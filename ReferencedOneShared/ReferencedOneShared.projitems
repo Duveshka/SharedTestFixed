@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>53eb71ee-b9fa-4728-888c-7625033e7905</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>ReferencedOneShared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Class1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Class2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Class3.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MoveToFolder\ReferencedOneShared_ReSharper4.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MoveToFolder\ReferencedOneShared_ReSharper2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MoveToFolder\ReferencedOneShared_ReSharper3.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MoveToFolder\ReferencedOneShared_VS1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MoveToFolder\ReferencedOneShared_VSCreatedBeforeReference1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NewFolder\AAA.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NewFolder\Class1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NewFolder\TC.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OneShared1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OneShared2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Ref1Shared1.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)MoveToFolder\" />
+  </ItemGroup>
+</Project>
