@@ -6,7 +6,7 @@ using System;
 
 #endregion
 
-namespace FrameworkReferenceShared
+namespace ClassLibrary1
 {
     public class Class12
     {
@@ -40,6 +40,7 @@ namespace FrameworkReferenceShared
 
         public void Dispose()
         {
+            Console.WriteLine("tozhe");
         }
 
         public void Add()

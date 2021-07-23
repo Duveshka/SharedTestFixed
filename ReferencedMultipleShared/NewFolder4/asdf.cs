@@ -18,4 +18,16 @@ using System;
                 Console.WriteLine("Tadada");
             }
         }
+        public class Testik
+        {
+            public void MethodForTest(IInterface test)
+            {
+                test.Test();
+            }
+            public void Test2()
+            {
+                var a = new A5();
+                MethodForTest(a);
+            }
+    }
     }

@@ -9,6 +9,17 @@ namespace FrameworkReferenceShared
 {
     public class Class12
     {
+
+        public void Test2()
+        {
+            var a = new Request();
+            MethodForTest(a);
+        }
+
+        public void MethodForTest(IDisposable test)
+        {
+            test.Dispose();
+        }
         private void Test(int number, UserService serviceProvider)
         {
             using var request = new Request();
@@ -30,6 +41,7 @@ namespace FrameworkReferenceShared
     {
         public void Dispose()
         {
+            Console.WriteLine("netadada");
         }
 
         public void Add()

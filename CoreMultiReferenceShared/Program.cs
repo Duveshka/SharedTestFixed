@@ -1,7 +1,9 @@
 ﻿#region test
 
 using System;
+using NewFolder4;
 using ReferencedMultipleShared;
+using Class12 = FrameworkReferenceShared.Class12;
 
 #endregion
 
@@ -30,6 +32,19 @@ namespace CoreMultiReferenceShared
             //multiShared1.Method2();
             var a = new Class5();
             a.Test();
+
+            var b = new Class12();
+            b.Test2();
+
+            var c = new Testik();
+            c.Test2();
+
+            var part1 = new Partial1();
+            var part2 = new Partial1();
+            part1.Inter1();
+            part2.Inter();
+            part2.Test();
+
             var ReferencedMultipleSharedVs1 = new ReferencedMultipleShared_VS1();
             ReferencedMultipleSharedVs1.Method2(1);
 
@@ -44,7 +59,6 @@ namespace CoreMultiReferenceShared
             reSharper4.Method2(null);
             reSharper4.Method1();
 
-            Console.WriteLine("Hello World!");
         }
     }
 }
