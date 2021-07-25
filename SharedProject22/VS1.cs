@@ -4,7 +4,12 @@ using System.Text;
 
 namespace SharedProject22
 {
-    class VS1
+    abstract class VS1
     {
+    }
+
+    interface VS2
+    {
+        
     }
 }

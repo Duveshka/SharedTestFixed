@@ -8,7 +8,7 @@ using ReferencedMultipleShared;
 
 namespace CoreMultiReferenceShared
 {
-    public class Class5
+    public class Class5 : Class6
     {
         public void Test()
         {

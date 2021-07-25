@@ -40,6 +40,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary1", "ClassLibra
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppShared", "CppShared\CppShared.vcxitems", "{0345A529-762F-459B-82C4-37C1F8DB884D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{C9B099F1-812E-48F0-BBB2-371DF29B0436}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		ReferencedOneShared\ReferencedOneShared.projitems*{00b629ce-bd7f-4b15-b913-5641a537479e}*SharedItemsImports = 5
@@ -181,6 +183,18 @@ Global
 		{E6EC26BB-BA51-4FBC-AE95-B9D68F93CD2C}.Release|x64.Build.0 = Release|Any CPU
 		{E6EC26BB-BA51-4FBC-AE95-B9D68F93CD2C}.Release|x86.ActiveCfg = Release|Any CPU
 		{E6EC26BB-BA51-4FBC-AE95-B9D68F93CD2C}.Release|x86.Build.0 = Release|Any CPU
+		{C9B099F1-812E-48F0-BBB2-371DF29B0436}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9B099F1-812E-48F0-BBB2-371DF29B0436}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9B099F1-812E-48F0-BBB2-371DF29B0436}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C9B099F1-812E-48F0-BBB2-371DF29B0436}.Debug|x64.Build.0 = Debug|Any CPU
+		{C9B099F1-812E-48F0-BBB2-371DF29B0436}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C9B099F1-812E-48F0-BBB2-371DF29B0436}.Debug|x86.Build.0 = Debug|Any CPU
+		{C9B099F1-812E-48F0-BBB2-371DF29B0436}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9B099F1-812E-48F0-BBB2-371DF29B0436}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9B099F1-812E-48F0-BBB2-371DF29B0436}.Release|x64.ActiveCfg = Release|Any CPU
+		{C9B099F1-812E-48F0-BBB2-371DF29B0436}.Release|x64.Build.0 = Release|Any CPU
+		{C9B099F1-812E-48F0-BBB2-371DF29B0436}.Release|x86.ActiveCfg = Release|Any CPU
+		{C9B099F1-812E-48F0-BBB2-371DF29B0436}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -9,7 +9,7 @@ namespace CoreMultiReferenceShared
 {
     public class Class1
     {
-        private void Test()
+        public void Test()
         {
             var reSharper1 = new ReferencedMultipleShared_ReSharper1_Renamed();
             reSharper1.Method1();

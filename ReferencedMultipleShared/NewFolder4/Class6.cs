@@ -1,6 +1,6 @@
 ﻿namespace NewFolder4
 {
-    public class Class6
+    public abstract class Class6
     {
     }
 }

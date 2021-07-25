@@ -18,6 +18,14 @@ using System;
                 Console.WriteLine("Tadada");
             }
         }
+
+        public class A6 : IInterface
+        {
+            public void Test()
+            {
+                throw new NotImplementedException();
+            }
+        }
         public class Testik
         {
             public void MethodForTest(IInterface test)

@@ -45,6 +45,11 @@ namespace ReferencedMultipleShared_1
             void M(string superTractor2000);
         }
 
+        private interface IB : IA
+        {
+
+        }
+
         internal class SortablePropertyDescriptorXxx : IComparable
         {
             protected internal PropertyDescriptor _propertyDescriptor;
