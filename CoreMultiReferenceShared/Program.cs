@@ -1,7 +1,7 @@
 ﻿#region test
 
 using System;
-using System.Net.Http.Headers;
+
 using NewFolder4;
 using ReferencedMultipleShared;
 using Class12 = FrameworkReferenceShared.Class12;
@@ -62,6 +62,7 @@ namespace CoreMultiReferenceShared
             var reSharper4 = new ReferencedMultipleShared_ReSharper4_Renamed();
             reSharper4.Method2(null);
             reSharper4.Method1();
+            
         }
     }
 }

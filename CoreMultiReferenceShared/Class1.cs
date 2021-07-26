@@ -42,4 +42,9 @@ namespace ReferencedMultipleShared
             // aaaaaaaaaaaaaaa
         }
     }
+
+    public interface IBas
+    {
+
+    }
 }

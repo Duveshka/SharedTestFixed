@@ -19,7 +19,7 @@ namespace ReferencedMultipleShared
 
     public class Location
     {
-        private string locationName;
+        public string locationName;
 
         public Location(string name) => Name = name;
 
@@ -34,6 +34,18 @@ namespace ReferencedMultipleShared
         {
             Location i = null;
             return i;
+        }
+    }
+
+    public class TestForLocation
+    {
+
+        public Location a = new Location("fdwe");
+
+        public void Test()
+        {
+            a.locationName = null;
+            a.Name2();
         }
     }
 }
