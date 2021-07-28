@@ -8,7 +8,7 @@ namespace CoreMultiReferenceShared
     {
         public void Inter1()
         {
-            Console.WriteLine("partial without interface");
+            Console.WriteLine("partial");
         }
     }
 }

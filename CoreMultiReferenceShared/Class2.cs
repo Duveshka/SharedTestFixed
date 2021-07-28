@@ -24,7 +24,7 @@ namespace CoreMultiReferenceShared
                     cost += 25;
                     break;
                 case 2:
-                    cost += 25;
+                    cost -= 25;
                     goto case 1;
                 case 3:
                     cost += 50;
