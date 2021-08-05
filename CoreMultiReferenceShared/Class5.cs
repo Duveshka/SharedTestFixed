@@ -21,6 +21,7 @@ namespace CoreMultiReferenceShared
         public void MethodForTest (IInterface test)
         {
             test.Test();
+            Console.WriteLine(" Test ");
         }
     }
 }
